@@ -19,11 +19,13 @@
   <div class="field">
     <%= form.label :prestamos_id %>
     <%= form.text_field :prestamos_id %>
+    <%= options_from_collection_for_select(detalle.prestamos.all, :id, :estado) %>
   </div>
 
   <div class="field">
     <%= form.label :libros_id %>
     <%= form.text_field :libros_id %>
+    <%= options_from_collection_for_select(detalle.libors.all, :id, :titulo) %>
   </div>
 
   <div class="actions">

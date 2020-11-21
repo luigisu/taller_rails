@@ -24,6 +24,8 @@
   <div class="field">
     <%= form.label :usuarios %>
     <%= form.text_field :usuarios %>
+    <%= options_from_collection_for_select(prestamo.usuarios.all, :id, :nombres) %>
+
   </div>
 
   <div class="field">
