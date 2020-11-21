@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  valor: MyString
+  decimal: MyString
+  fecha: 2020-11-21
+  estado: 1
+  prestamos: one
+
+two:
+  valor: MyString
+  decimal: MyString
+  fecha: 2020-11-21
+  estado: 1
+  prestamos: two

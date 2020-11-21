@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cantida: 1
+  prestamos: one
+  libros: one
+
+two:
+  cantida: 1
+  prestamos: two
+  libros: two

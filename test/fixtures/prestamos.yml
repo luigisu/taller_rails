@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fecha: 2020-11-21
+  estado: 1
+  usuarios: MyString
+  references: MyString
+
+two:
+  fecha: 2020-11-21
+  estado: 1
+  usuarios: MyString
+  references: MyString
